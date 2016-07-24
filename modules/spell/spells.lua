@@ -19,6 +19,8 @@ kps.spells.potion.draenicStrengthPotion = kps.Spell.fromId(156428) -- Draenic St
 kps.spells.ae = {}
 kps.spells.ae.bindingShot = kps.Spell.fromId(109248) -- Binding Shot
 kps.spells.ae.shadowfury = kps.Spell.fromId(30283) -- Shadowfury
+kps.spells.ae.efflorescence = kps.Spell.fromId(145205) -- Efflorescence
+kps.spells.ae.starFall = kps.Spells.fromId(191034) -- Starfall
 -- Spell with ID 88685 not found!
 -- Spell with ID 724 not found!
 kps.spells.ae.massDispel = kps.Spell.fromId(32375) -- Mass Dispel
