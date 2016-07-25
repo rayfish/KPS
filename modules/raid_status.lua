@@ -95,8 +95,7 @@ local function tanksInRaid()
     for name,player in pairs(raidStatus) do
         if UnitGroupRolesAssigned(player.unit) == "TANK" 
             or player.hasBuff(kps.spells.druid.bearForm)
-            or player.hasBuff(kps.spells.deathknight.bloodPresence)
-            or player.hasBuff(kps.spells.paladin.righteousFury) then
+         then
             table.insert(tanks, player)
         end
     end
